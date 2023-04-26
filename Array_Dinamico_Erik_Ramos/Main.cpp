@@ -1,7 +1,7 @@
 #include "DynamicInteger.h"
 int main(){
     int lista[]={1,5,2,6,2,4};
-    DynamicIntegerArray da(lista,5);
+    DynamicIntegerArray da(lista,6);
     DynamicIntegerArray nuevo(da);
     da.pushback(5);
     da.insert(199,1);
